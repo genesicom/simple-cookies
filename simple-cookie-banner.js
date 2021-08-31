@@ -58,7 +58,6 @@
   const cookiesNoText = document.createTextNode('Dimmi di più');
   cookiesNo.href = document.querySelector('[data-policy]').dataset.policy;
   cookiesNo.setAttribute('target', '_blank');
-  cookiesNo.setAttribute('download', '');
   
   // Attach ELEMENTS
   document.querySelector('body').appendChild(cookies);
