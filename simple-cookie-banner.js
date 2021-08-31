@@ -13,8 +13,8 @@
   cookies.style.right = '3rem';
   cookies.style.boxShadow = '0 0 40px rgba(0,0,0,0.17)';
   cookies.style.padding = '2rem';
-  cookies.style.width = '300px';
-  cookies.style.maxHeight = '300px';
+  cookies.style.width = '240px';
+  cookies.style.maxHeight = '240px';
   cookies.style.overflow = 'auto';
   cookies.style.backgroundColor = 'white';
   cookies.style.zIndex = '999';
@@ -32,7 +32,7 @@
   cookiesMessage.style.margin = '0 0 1rem 0';
   cookiesMessage.style.color = 'var(--text, #333333)';
   // Cookies MESSAGE TEXT
-  const cookiesMessageText = document.createTextNode('Noi e terze parti selezionate utilizziamo cookie o tecnologie simili come specificato nella cookie policy. Puoi acconsentire all’utilizzo di tali tecnologie chiudendo questa informativa o continuando a navigare in altro modo.');
+  const cookiesMessageText = document.createTextNode('Noi e terze parti selezionate utilizziamo cookie o tecnologie simili come specificato nella cookie policy.');
   // Create cookies OK button 
   const cookiesOk = document.createElement('DIV');
   cookiesOk.style.margin = '0';
