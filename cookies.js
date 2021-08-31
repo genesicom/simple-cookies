@@ -73,8 +73,7 @@
   // and EVENTS
   cookiesOk.addEventListener('click', function() {
     store.setItem('cookiesPreference', 'yes');
-    cookies.style.transform = 'scale(0)';
-    cookies.style.opacity = '0';
+    location.reload();
   });
 
   // Check preferences 
