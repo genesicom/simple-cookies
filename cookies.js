@@ -82,8 +82,7 @@
 
   if(preference === 'yes') {	
     const fathom = document.createElement('SCRIPT');
-    // fathom.setAttribute('src', 'https://cdn.usefathom.com/script.js');
-    fathom.setAttribute('src', 'https://cdn.jsdelivr.net/gh/genesicom/simple-cookies@latest/test.js');
+    fathom.setAttribute('src', 'https://cdn.usefathom.com/script.js');
     fathom.dataset.site = document.querySelector('[data-fathom]').dataset.fathom;;
     document.head.appendChild(fathom);
   } else {
