@@ -3,10 +3,10 @@
   const store = window.localStorage;
 
   // Attach Fathom Script
-  const fathom = document.createElement('SCRIPT');
-  fathom.setAttribute('src', 'https://cdn.usefathom.com/script.js');
-  fathom.dataset.site = document.querySelector('[data-fathom]').dataset.fathom;;
-  document.head.appendChild(fathom);
+//   const fathom = document.createElement('SCRIPT');
+//   fathom.setAttribute('src', 'https://cdn.usefathom.com/script.js');
+//   fathom.dataset.site = document.querySelector('[data-fathom]').dataset.fathom;;
+//   document.head.appendChild(fathom);
 
   // Create cookies BOX
   const cookies = document.createElement('DIV');
